@@ -65,7 +65,7 @@ abstract class BaseModel
      */
     public function add($data)
     {
-        return $this->_storageInterface->create($data);
+        return $this->_storageInterface->name($this->_table)->create($data);
     }
 
     /**
