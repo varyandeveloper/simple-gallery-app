@@ -14,11 +14,11 @@ Test project for two kind of users(editor, regular) where
 ## Configuration
 
 * unpack archive
-* open app/config.php and set baseUrl to match with your server
+* open app/config.php and set baseUrl to match with your server (optional)
 * if you are able to run shell script then run ./install.sh else run
     * composer dump-autoload (will make autoloader vendor/autoload.php)
     * php seeder.php (will fill json files inside app/storage folder with fake data for testing)
-* open browser and navigate to the url witch you set as your baseUrl ex. http://task.local  
+* open browser and navigate to the url witch you set as your baseUrl ex. http://gallery.local  
         
 ## Structure
 
