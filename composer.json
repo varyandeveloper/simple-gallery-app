@@ -1,0 +1,8 @@
+{
+  "autoload":{
+    "psr-4":{
+      "VS\\Gallery\\":"./src",
+      "App\\":"./app"
+    }
+  }
+}
